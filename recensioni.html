@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="recensioni.js"></script>
     <title>RECENSIONI</title>
 </head>
 <body>
@@ -12,7 +16,6 @@
             <img src="C:\Users\feder\Documents\GitHub\oak-city\Immagini\simbolo.png" id="simbolo" alt="simbolo">
             </a>
             <ul class="left" style="font-size: 48px; color: #000000; margin: 0px">   <!-- TITOLO -->
-                <li>RECENSIONI</li>
             </ul>
 
             <ul class="right" style="margin: 0%; padding: 0%; width: auto;">                                                                      <!-- MENU -->
@@ -24,5 +27,139 @@
             </ul>
         </div>
     </div>
+<h1 class="giudizi">I vostri giudizi</h1>
+<br><div id="box_valutazionemedia">
+    <p>prova</p>
+</div>
+<!---<div class="stars">
+    <a>⭐</a>
+    <a>⭐</a>
+    <a>⭐</a>
+    <a>⭐</a>
+    <a>⭐</a>
+</div>-->
+
+<div class="review">
+<img src="C:\Users\feder\Documents\GitHub\oak-city\Icone\user_icon.png" class="user_icon" alt="user icon">
+<p class="nome_utente">ValeriaP.
+    <br><!---<img src="C:\Users\feder\Documents\GitHub\oak-city\Icone\rating_icon.png" alt="stars review">--->
+    <br><p id="data">08 novembre 2021</p>
+</p>
+<div id="box_valutazione">
+    <p>prova</p>
+</div>
+<p id="recensione">
+    <h3>Esperienza interessante</h3>
+    Questa piccola città permette di stare a contatto con la natura e scoprire cose nuove su di essa.<br>
+    Offre molti servizi interessanti come un corso per la lavorazione del legno e un corso di cucina organica.<br>
+    La stanza in cui ho alloggiato era tutta fatta di legno, ma offriva gli stessi confort di una stanza d’hotel. 
+</p>
+</div>
+
+<div class="review">
+    <img src="C:\Users\feder\Documents\GitHub\oak-city\Immagini\user1.png" class="user_iconimg" alt="user icon">
+    <p class="nome_utente">Matteo96
+        <br><!---<img src="C:\Users\feder\Documents\GitHub\oak-city\Icone\rating_icon.png" alt="stars review">--->
+        <br><p id="data">08 novembre 2021</p>
+    </p>
+    <div id="box_valutazione">
+        <p>prova</p>
+    </div>
+    <p id="recensione">
+        <h3>Immersi nel verde</h3>
+        Stanze accoglienti, fatte completamente in legno, con una bella vista. <br>
+        La cucina molto luminosa, con diversi utensili a disposizione.<br>
+        Ho provato l’esperienza dell’escurionse di mezzanotte: percorso suggestivo, <br> permette di ascoltare con attenzione tutti i suoni della natura notturna. 
+        <br><img src="C:\Users\feder\Documents\GitHub\oak-city\Immagini\Foto bagno.png" class="img_recensione" alt="foto bagno">
+        <img src="C:\Users\feder\Documents\GitHub\oak-city\Immagini\Foto cucina.png" class="img_recensione" alt="foto cucina">
+        <img src="C:\Users\feder\Documents\GitHub\oak-city\Immagini\passeggiata.png" class="img_recensione" alt="passeggiata">
+    </p>
+    </div>
+
+    <div class="review">
+        <img src="C:\Users\feder\Documents\GitHub\oak-city\Immagini\user2.jpg" class="user_iconimg" alt="user icon">
+        <p class="nome_utente">L'avventuriera
+            <br><!---<img src="C:\Users\feder\Documents\GitHub\oak-city\Icone\rating_icon.png" alt="stars review">--->
+            <br><p id="data">03 novembre 2021</p>
+        </p>
+        <div id="box_valutazione">
+            <p>prova</p>
+        </div>
+        <p id="recensione">
+            <h3>Romantica e ricca di servizi</h3>
+            Sono stata in questa piccola cittadina sugli alberi con il mio ragazzo. <br>Abbiamo prenotato un loft privato che aveva una stanza relax molto romantica e con una vista spettacolare!<br>
+            Per vivere nel pieno l’esperienza di immersione nella natura consigliamo l’esperienza Cerwood <br> che permette di essere a stretto contatto con la natura, ma in modo atletico tramite un percoso ad ostacoli in mezzo agli alberi.<br>
+            Consigliatissima!! Ci ritorneremo! 
+            <br><img src="C:\Users\feder\Documents\GitHub\oak-city\Immagini\salotto_vista.jpg" class="img_rec" alt="salotto_vista">
+            <img src="C:\Users\feder\Documents\GitHub\oak-city\Immagini\romantic.jpg" class="img_rec" alt="romantic">
+            
+        </p>
+        </div>
+
+        <div class="review">
+            <img src="C:\Users\feder\Documents\GitHub\oak-city\Icone\user_icon.png" class="user_icon" alt="user icon">
+            <p class="nome_utente">Roberto
+                <br><!---<img src="C:\Users\feder\Documents\GitHub\oak-city\Icone\rating_icon.png" alt="stars review">--->
+                <br><p id="data">24 ottobre 2021</p>
+            </p>
+            <div id="box_valutazione">
+                <p>prova</p>
+            </div>
+            <p id="recensione">
+                <h3>La magia della natura</h3>
+                Sono stato attratto dalla particolarità di questa cittadina sugli alberi.<br>
+                Offre molti servizi utili ad avvicinare i turisti al loro mondo di condivisione. <br>
+                Ho trovato molto rilassanti le zone per lo yoga e quella per la lettura. <br>
+
+            </p>
+            </div>
+    <fieldset id="scrivere_recensione">
+        <form id="nuova_recensione">
+            <!--<label for="email">Email:</label>-->
+            <input type="recensione" placeholder="Scrivi qui la tua recensione..."id="recensione" required name="recensione">
+            <button class="new_review">INVIO</button>
+        </form>
+    </fieldset>
+    
+    
+    <!-- FOOTER -->
+    
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Servizi</h3>
+                        <ul>
+                            <li><a href="#">Oak city News</a></li>
+                            <li><a href="#">Prenota un'esperienza</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Su di noi</h3>
+                        <ul>
+                            <li><a href="#">Recensioni</a></li>
+                            <li><a href="#">Come trovarci</a></li>
+                            <li><a href="#">Oak city</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-md-6 item text">
+                        <h3>Newsletter</h3>
+                        <p>Vuoi restare aggiornato sulle ultime novità della città più verde d'Italia? Seguici sulle nostre pagine social ed entra a far parte della nostra community!</p>
+                    </div>
+                    <div class="col item social">
+                        <a href="#"><i class="icon ion-social-facebook"></i></a>
+                        <a href="#"><i class="icon ion-social-twitter"></i></a>
+                        <a href="#"><i class="icon ion-social-instagram"></i></a>
+                </div>
+    
+                        </div>
+                    </div>
+    
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
