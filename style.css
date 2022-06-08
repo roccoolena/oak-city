@@ -705,7 +705,7 @@ h2{
 
 }
 
-.card_box_valutazione {
+.card_box_rating {
     background-color: #E6E5D8;
     border-color: #000000;
     width: 291px;
@@ -729,14 +729,14 @@ h2{
     padding-right: 15px;
 }
 
-.nome_utente{
+.user_name{
     font-family: 'Open Sans';
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 0.03em;
 }
 
-#data {
+#date {
     font-family: 'Open Sans';
     font-weight: lighter;
     font-size: 16px;
@@ -750,14 +750,14 @@ h3 {
     letter-spacing: -0.02em;
 }
 
-#recensione {
+#review {
         font-family: 'Open Sans', sans-serif;
         font-size: 30px;
         letter-spacing: -0.02em;
     
 }
 
-.card_recensione {
+.card_review {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
 }
