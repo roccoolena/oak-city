@@ -835,4 +835,40 @@ fieldset {
     color: white;
     border-radius: 10px;
 }
+/*Alessia servizi_esperienza*/
+@media (min-width: 768px) {
+    .h-md-100 { height: 100vh; }
 
+}
+.btn-round { border-radius: 30px; }
+.bg-indigo { background-image: url("Foto_servizi.png"); }
+.unotext { color:#F5FEF5;
+    font-family: 'Open Sans', sans-serif;
+    font-size:2.5em;
+    font-weight: bold;
+}
+.bg-white{ background-image: url("Foto_esperienza.png");}
+.duetext{color:#F5FEF5;
+    font-family: 'Open Sans', sans-serif;
+    font-size:2.5em;
+    font-weight: bold;}
+
+.leftside{height: 100vh;}
+.rightside{height:100vh;}
+
+.button{color:#F5FEF5;
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.5em;
+    font-weight: bold;
+    background-color:#F8B509;
+}
+.button_due{color:#F5FEF5;
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.5em;
+    font-weight: bold;
+    background-color:#314C1C;}
+p{font-family: 'Open Sans', sans-serif;
+    font-size:0.5em;
+    font-weight: normal;
+    color:#F5FEF5;
+text-align: center}
