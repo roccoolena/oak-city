@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97c32b5d-bad0-4728-a13e-57faca191640" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/prenota.html" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.html" afterDir="false" />
-    </list>
+    <list default="true" id="97c32b5d-bad0-4728-a13e-57faca191640" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +54,7 @@
       <workItem from="1650010374712" duration="1286000" />
       <workItem from="1650975545771" duration="2839000" />
       <workItem from="1651047101624" duration="590000" />
-      <workItem from="1655452464387" duration="35000" />
+      <workItem from="1655452464387" duration="51000" />
     </task>
     <servers />
   </component>
