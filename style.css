@@ -72,9 +72,8 @@ h1{
 
 h5{
     font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 64px;
+    font-weight: bold;
+    font-size: 40px;
 }
 
 .titolo_news{
@@ -815,38 +814,96 @@ fieldset {
 
 }
 .btn-round { border-radius: 30px; }
-.bg-indigo { background-image: url("Foto_servizi.png"); }
+.bg-indigo { background-image: url("Immagini/Foto_servizi.png"); }
+
 .unotext { color:#F5FEF5;
     font-family: 'Open Sans', sans-serif;
-    font-size:2.5em;
     font-weight: bold;
 }
-.bg-white{ background-image: url("Foto_esperienza.png");}
-.duetext{color:#F5FEF5;
-    font-family: 'Open Sans', sans-serif;
-    font-size:2.5em;
-    font-weight: bold;}
 
-.leftside{height: 100vh;}
-.rightside{height:100vh;}
-
-.button{
+.unotext_body{
     color:#F5FEF5;
     font-family: 'Open Sans', sans-serif;
-    font-size:0.5em;
     font-weight: bold;
+    font-size: 30px;
+    line-height: normal;
 }
-.button_due{color:#F5FEF5;
+
+.bg-white{
+    background-image: url("Immagini/Foto_esperienza.png");
+}
+
+.duetext{
+    color:#F5FEF5;
     font-family: 'Open Sans', sans-serif;
-    font-size:0.5em;
+    font-weight: bold;}
+
+.leftside{
+    height: 100vh;
+}
+
+.rightside{
+    height:100vh;
+}
+
+.button_uno{
+    color:#F5FEF5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
     font-weight: bold;
-    background-color:#314C1C;}
-p{font-family: 'Open Sans', sans-serif;
+    background-color:#F8B509;
+}
+.button_due{
+    color:#F5FEF5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#314C1C;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
     font-size:0.5em;
     font-weight: normal;
     color:#F5FEF5;
-text-align: center}
+    text-align: center
+}
+/*prenota un soggiorno*/
+.title_brown{
+    color: #391E0A;
+    font-weight: bold;
+}
 
+.card_background{
+    background-color: #EDC660;
+    color: #391E0A;
+}
+
+.soggiorno_text{
+    color: #391E0A;
+    font-size: 30px;
+    text-align: left;
+    line-height: normal;
+}
+
+.soggiorno_img{
+    width: 100%;
+}
+
+.button_prenota_form{
+    background-color: #391E0A;
+    color: #F5FEF5;
+    border-color: #391E0A;
+}
+
+.button_prenota_home{
+    background-color: #F8B509;
+    color: #F5FEF5;
+    border-color: #F8B509;
+}
+
+.button_prenota_div{
+    text-align: right;
+}
 
 /*FOOTER*/
 
