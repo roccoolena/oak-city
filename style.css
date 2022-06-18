@@ -11,60 +11,31 @@ body{
 }
 
 /* HOME */
-#home{
-    background-image: url("Immagini/homepage.png");
+.home{
+    background-image: url("Immagini/homepage1.jpeg");
 }
 
-home_class{
-    background-image: url("Immagini/homepage.png");
-}
-
-div#wrapper_home {
-    width:95%;
-}
-
-div#container-title-home {
-    width: 55%;
-    margin-left: 3%;
-    margin-top: 10%;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    order: 1;
-}
-
-div#title_home{
+.home_title{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
     color: #F5FEF5;
     letter-spacing:-0.02em;
-
 }
-div#container-body-home {
+
+.home_body{
     background-color: rgba(49,76,28,0.52);
-    width:50%;
-    margin-left: 55%;
-    display: flex;
-    flex-direction: column;
 }
 
-div#text_home{
+.home_text{
     margin-left: 10%;
     margin-top: 10%;
     font-family:'Open Sans', sans-serif;
     font-style: normal;
     font-size: 40px;
     color: #F5FEF5;
-}
-
-div#container-button-home{
-    background-color: rgba(49,76,28,0.52);
-    width: 50%;
-    margin-left: 55%;
-    display: flex;
+    text-align: left;
 }
 
 .button_descrizione{
@@ -216,7 +187,6 @@ h5{
     align-items: center;
     padding-right: 1%;
     padding-left:1%;
-
     height: 11%;
 }
 
