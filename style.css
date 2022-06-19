@@ -76,19 +76,44 @@ h5{
     font-size: 40px;
 }
 
-.titolo_news{
+.titolo_news1{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
+    text-align: left;
 }
 
-.testo_news{
+.testo_news1{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
+    text-align: left;
+    color: #2E3019;
 }
+
+.titolo_news2{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: right;
+}
+
+.testo_news2{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: right;
+    color: #2E3019;
+}
+
+.rewards{
+    justify-content: center;
+}
+
 
 .button_prenota{
     background-color: #314C1C;
