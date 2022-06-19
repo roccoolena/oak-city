@@ -64,7 +64,7 @@ body{
 
 h1{
     font-family: 'Open Sans';
-    font-style: normal;
+    font-style: bold;
     font-weight: 500;
     color: #2E3019;
     font-size: 64px;
@@ -897,7 +897,12 @@ p{
     text-align: center
 }
 
-/*pagina descirzione*/
+.exp_title{
+    font-weight: bold;
+    font-size: 64px;
+}
+
+/*pagina descrizione*/
 .description{
     background-color: #dfdacb;
 }
@@ -920,6 +925,26 @@ p{
     font-size: 30px;
     text-align: left;
     font-weight: lighter;
+}
+
+/*pagina servizi*/
+
+.service_title{
+    font-size: 64px;
+    font-weight: bold;
+    color: #F5FEF5;
+}
+
+.service_text{
+    font-size: 30px;
+    font-weight: bold;
+    color: #F5FEF5;
+}
+
+.button_exp_2{
+    background-color: #314C1C;
+    color: #DFDACB;
+    border-color: #314C1C;
 }
 
 /*prenota un soggiorno*/

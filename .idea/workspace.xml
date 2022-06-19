@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97c32b5d-bad0-4728-a13e-57faca191640" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Immagini/banner_descrizione.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Immagini/banner_soggiorno.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Immagini/economia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Immagini/foto camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Immagini/foto esterno.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Immagini/foto soggiorno.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Immagini/meditazione.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Immagini/trekking.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esperienza.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Descrizione.html" beforeDir="false" afterPath="$PROJECT_DIR$/Descrizione.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_servizi/esperienza" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esperienza.html" beforeDir="false" afterPath="$PROJECT_DIR$/esperienza.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prenota.html" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prenota_cal.html" beforeDir="false" afterPath="$PROJECT_DIR$/prenota_cal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prenota_soggiorno.html" beforeDir="false" afterPath="$PROJECT_DIR$/prenota_soggiorno.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recensioni.html" beforeDir="false" afterPath="$PROJECT_DIR$/recensioni.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +22,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,7 +72,7 @@
       <workItem from="1655557068499" duration="3105000" />
       <workItem from="1655570381978" duration="20000" />
       <workItem from="1655641293346" duration="878000" />
-      <workItem from="1655647746012" duration="3124000" />
+      <workItem from="1655647746012" duration="3921000" />
     </task>
     <servers />
   </component>
