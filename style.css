@@ -11,60 +11,31 @@ body{
 }
 
 /* HOME */
-#home{
-    background-image: url("Immagini/homepage.png");
+.home{
+    background-image: url("Immagini/homepage1.jpeg");
 }
 
-home_class{
-    background-image: url("Immagini/homepage.png");
-}
-
-div#wrapper_home {
-    width:95%;
-}
-
-div#container-title-home {
-    width: 55%;
-    margin-left: 3%;
-    margin-top: 10%;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    order: 1;
-}
-
-div#title_home{
+.home_title{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
     color: #F5FEF5;
     letter-spacing:-0.02em;
-
 }
-div#container-body-home {
+
+.home_body{
     background-color: rgba(49,76,28,0.52);
-    width:50%;
-    margin-left: 55%;
-    display: flex;
-    flex-direction: column;
 }
 
-div#text_home{
+.home_text{
     margin-left: 10%;
     margin-top: 10%;
     font-family:'Open Sans', sans-serif;
     font-style: normal;
     font-size: 40px;
     color: #F5FEF5;
-}
-
-div#container-button-home{
-    background-color: rgba(49,76,28,0.52);
-    width: 50%;
-    margin-left: 55%;
-    display: flex;
+    text-align: left;
 }
 
 .button_descrizione{
@@ -89,11 +60,12 @@ div#container-button-home{
 
 .card-text{
     font-size: 30px;
+    text-align: left;
 }
 
 h1{
     font-family: 'Open Sans';
-    font-style: normal;
+    font-style: bold;
     font-weight: 500;
     color: #2E3019;
     font-size: 64px;
@@ -101,24 +73,48 @@ h1{
 
 h5{
     font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 64px;
+    font-weight: bold;
+    font-size: 40px;
 }
 
-.titolo_news{
+.titolo_news1{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
+    text-align: left;
 }
 
-.testo_news{
+.testo_news1{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
+    text-align: left;
+    color: #2E3019;
 }
+
+.titolo_news2{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: right;
+}
+
+.testo_news2{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: right;
+    color: #2E3019;
+}
+
+.rewards{
+    justify-content: center;
+}
+
 
 .button_prenota{
     background-color: #314C1C;
@@ -216,7 +212,6 @@ h5{
     align-items: center;
     padding-right: 1%;
     padding-left:1%;
-
     height: 11%;
 }
 
@@ -229,6 +224,8 @@ h5{
 .rigth{
     text-align: right;
     min-width: 75%;
+    margin: 0%;
+    width: auto;
 }
 
 
@@ -640,13 +637,15 @@ h2{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 2.2vw;
+    font-size: 31px;
     line-height: 150%;
     text-align: center;
     letter-spacing: -0.02em;
-    position: absolute;
-    top: 183.01610541727672vw;
-    left: 10%;
+}
+
+.h2_description{
+    color: #391E0A;
+    font-size: 31px;
 }
 
 /*BODY*/
@@ -857,38 +856,147 @@ fieldset {
 
 }
 .btn-round { border-radius: 30px; }
-.bg-indigo { background-image: url("Foto_servizi.png"); }
+.bg-indigo { background-image: url("Immagini/Foto_servizi.png"); }
+
 .unotext { color:#F5FEF5;
     font-family: 'Open Sans', sans-serif;
-    font-size:2.5em;
     font-weight: bold;
 }
-.bg-white{ background-image: url("Foto_esperienza.png");}
-.duetext{color:#F5FEF5;
-    font-family: 'Open Sans', sans-serif;
-    font-size:2.5em;
-    font-weight: bold;}
 
-.leftside{height: 100vh;}
-.rightside{height:100vh;}
-
-.button{
+.unotext_body{
     color:#F5FEF5;
     font-family: 'Open Sans', sans-serif;
-    font-size:0.5em;
     font-weight: bold;
+    font-size: 30px;
+    line-height: normal;
 }
-.button_due{color:#F5FEF5;
+
+.bg-white{
+    background-image: url("Immagini/Foto_esperienza.png");
+}
+
+.duetext{
+    color:#F5FEF5;
     font-family: 'Open Sans', sans-serif;
-    font-size:0.5em;
+    font-weight: bold;}
+
+.leftside{
+    height: 100vh;
+}
+
+.rightside{
+    height:100vh;
+}
+
+.button_uno{
+    color:#F5FEF5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
     font-weight: bold;
-    background-color:#314C1C;}
-p{font-family: 'Open Sans', sans-serif;
+    background-color:#F8B509;
+}
+.button_due{
+    color:#F5FEF5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#314C1C;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
     font-size:0.5em;
     font-weight: normal;
     color:#F5FEF5;
-text-align: center}
+    text-align: center
+}
 
+.exp_title{
+    font-weight: bold;
+    font-size: 64px;
+}
+
+/*pagina descrizione*/
+.description{
+    background-color: #dfdacb;
+}
+
+.banner{
+    background-image: url("Immagini/banner_descrizione.png");
+    height: 100%;
+}
+
+.description_title{
+    color: #F5FEF5;
+    font-weight: bold;
+    font-size: 70px;
+    padding-top: 13%;
+    padding-bottom: 13%;
+}
+
+.description_text{
+    color: #391E0A;
+    font-size: 30px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+/*pagina servizi*/
+
+.service_title{
+    font-size: 64px;
+    font-weight: bold;
+    color: #F5FEF5;
+}
+
+.service_text{
+    font-size: 30px;
+    font-weight: bold;
+    color: #F5FEF5;
+}
+
+.button_exp_2{
+    background-color: #314C1C;
+    color: #DFDACB;
+    border-color: #314C1C;
+}
+
+/*prenota un soggiorno*/
+.title_brown{
+    color: #391E0A;
+    font-weight: bold;
+}
+
+.card_background{
+    background-color: #EDC660;
+    color: #391E0A;
+}
+
+.soggiorno_text{
+    color: #391E0A;
+    font-size: 30px;
+    text-align: left;
+    line-height: normal;
+}
+
+.soggiorno_img{
+    width: 100%;
+}
+
+.button_prenota_form{
+    background-color: #391E0A;
+    color: #F5FEF5;
+    border-color: #391E0A;
+}
+
+.button_prenota_home{
+    background-color: #F8B509;
+    color: #F5FEF5;
+    border-color: #F8B509;
+}
+
+.button_prenota_div{
+    text-align: right;
+}
 
 /*FOOTER*/
 

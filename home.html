@@ -23,13 +23,13 @@
 <div class="menu">      <!-- HEADER -->
     <div class="bar">
         <a href="home.html">
-            <ul class="left" >   <!-- TITOLO -->
+            <ul class="left my-2" >   <!-- TITOLO -->
                 <img src="Immagini\simbolo.png" id="simbolo" alt="simbolo" href="home.html">
             </ul>
         </a>
 
-        <ul class="right" style="margin: 0%; padding: 0%; width: auto;">                                                                      <!-- MENU -->
-            <li class="button"><a class="link_header" href="oakcity.html">OAKCITY</a></li>
+        <ul class="right pt-3">                                                                       <!-- MENU -->
+            <li class="button"><a class="link_header" href="Descrizione.html">OAKCITY</a></li>
             <li class="button"><a class="link_header" href="servizi.html">SERVIZI</a></li>
             <li class="button"><a class="link_header" href="come_trovarci.html">COME TROVARCI</a></li>
             <li class="button" ><a class="link_header" href="recensioni.html">RECENSIONI</a></li>
@@ -38,32 +38,23 @@
     </div>
 </div>
 
-<main id="home">
-    <div id="wrapper_home">
-
-    <div id="container-title-home"> <!-- contenitore titolo della home-->
-    <div id="title_home">
-        Oak City : il futuro green è già qui <!-- div per gestire le caratteristiche del titolo -->
+<div class=" row g-0 home">
+    <div class="col-1"></div>
+    <div class="col-6 py-5"> <!-- contenitore titolo della home-->
+        <h1 class="home_title m-5">
+            Oak City : il futuro green è già qui <!-- div per gestire le caratteristiche del titolo -->
+        </h1>
     </div>
-    </div>
 
-    <div id="container-body-home"> <!-- contenitore di tutta la parte testuale della home e il bottone-->
-
-        <div id="text_home"> <!-- div per gestire le caratteristiche del body-->
-            Lasciati ispirare da questa realtà,
+        <div class="home_body col-5"> <!-- div per gestire le caratteristiche del body-->
+            <p class="home_text">Lasciati ispirare da questa realtà,
             vieni a <b> scoprire </b> i segreti della comunità più <b> green </b> d’Italia
-            e incantare dalla bellezza unica di <b> Oakcity </b> e dai valori dei suoi abitanti.
+            e incantare dalla bellezza unica di <b> Oakcity </b> e dai valori dei suoi abitanti.</p><br>
+            <button type="button" href="Descrizione.html" class="button_descrizione btn-lg m-5">SCOPRI OAK CITY</button>
             </div>
 
-    </div>
-    <div id="container-button-home"> <!-- contenitore del bottone-->
-    <a href="Descrizione.html">
-        <button type="button" class="button_descrizione btn-lg m-5">SCOPRI OAK CITY</button>
-    </a>
-
-    </div>
-    </div>
-</main>
+</div>
+</div>
 <div class="footer">
     <div class="row g-0">
         <div class="col-3">
@@ -84,6 +75,7 @@
     </div>
 </div>
 </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
     
