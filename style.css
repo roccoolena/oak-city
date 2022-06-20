@@ -652,6 +652,9 @@ h2{
 
 /*FEDERICA recensioni*/
 
+.title_rec{
+    font-weight: bold;
+}
 .generic_review1{
     align-items: center;
 }
@@ -746,6 +749,7 @@ h2{
     letter-spacing: 0.03em;
     text-align: start;
     color: #2E3019;
+    padding-bottom: 0;
 }
 
 #date {
@@ -781,6 +785,10 @@ h3 {
     padding: 70px;
     padding-top: 40px;
 
+}
+
+.rec_form{
+    height: 100%;
 }
 
 .img_rec {
@@ -998,6 +1006,10 @@ p{
     text-align: right;
 }
 
+
+banner_rec{
+    width:100%;
+}
 /*FOOTER*/
 
 .footer{

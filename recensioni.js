@@ -1,15 +1,9 @@
-const starWrapper = document.querySelectorAll('.star');
-const stars = document.querySelectorAll('.stars a');
-
-stars.forEach((star, clickedIdx)=> {
-    star.addEventListener("click", () => {
-        starWrapper.classList.add("disabled");
-        stars.forEach((otherStar, otherIdx)=> {
-            if (otherIdx <= clickedIdx) {
-                otherStar.classList.add("active");
-            }
-        
-        });
-        console.log('star of index ${clickedIdx + 1} was clicked')
-    });
+$(".my-rating-4").starRating({
+    totalStars: 5,
+    starShape: 'rounded',
+    starSize: 40,
+    emptyColor: 'lightgray',
+    hoverColor: 'salmon',
+    activeColor: 'crimson',
+    useGradient: false
 });
