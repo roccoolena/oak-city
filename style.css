@@ -65,7 +65,7 @@ body{
 
 h1{
     font-family: 'Open Sans';
-    font-style: bold;
+    font-weight: bold;
     font-weight: 500;
     color: #2E3019;
     font-size: 64px;
@@ -803,7 +803,7 @@ h3 {
 
 .social {
     display: flex;
-    align-items: space-around;
+    justify-content: space-around;
 }
 
 .instagram {
