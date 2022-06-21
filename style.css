@@ -1027,14 +1027,14 @@ banner_rec{
 }
 
 .map_title2{
-    font-size: 40px;
+    font-size: calc(1.5em + 0.2vw);
     color: #F5FEF5;
     font-weight: bold;
     text-align: left;
 }
 
 .map_text{
-    font-size: 22px;
+    font-size: calc(1em + 0.2vw);
     color: #F5FEF5;
     font-weight: bold;
     text-align: left;
