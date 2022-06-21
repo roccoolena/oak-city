@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97c32b5d-bad0-4728-a13e-57faca191640" name="Changes" comment="" />
+    <list default="true" id="97c32b5d-bad0-4728-a13e-57faca191640" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prenota_soggiorno.html" beforeDir="false" afterPath="$PROJECT_DIR$/prenota_soggiorno.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +72,7 @@
       <workItem from="1655647746012" duration="4098000" />
       <workItem from="1655738645653" duration="4685000" />
       <workItem from="1655824244353" duration="2770000" />
+      <workItem from="1655836449269" duration="1076000" />
     </task>
     <servers />
   </component>
