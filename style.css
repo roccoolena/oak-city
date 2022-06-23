@@ -44,9 +44,11 @@ body{
     border-color: #F8B509;
 }
 
+.prenota_soggiorno{
+    background-color: #DFDACB;
+}
 
 /*ROCCO prenota*/
-
 .card_nuova{
     background-color: rgba(49,76,28,0.52);
     color: #FFFFFF;
@@ -66,9 +68,22 @@ body{
 h1{
     font-family: 'Open Sans';
     font-weight: bold;
-    font-weight: 500;
     color: #2E3019;
     font-size: 64px;
+}
+
+.h1_news{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color: #F5FEF5;
+    font-size: 64px;
+}
+
+.banner_news{
+    background-image: url("Immagini/news%20copia.png");
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
 }
 
 h5{
@@ -193,6 +208,15 @@ h5{
     font-weight: 300;
     color: #F5FEF5;
     font-size: 64px;
+}
+
+.titolo_premi1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    color: #F5FEF5;
+    font-size: 64px;
+    text-align: left;
 }
 
 /* HEADER */
@@ -722,6 +746,7 @@ h2{
     /*margin: -130px;*/
     /*margin-right: 100px;
 }*/
+
 .generic_review {
     float: right;
     width: 291px;
@@ -929,7 +954,7 @@ p{
 }
 
 .banner{
-    background-image: url("Immagini/banner_descrizione.png");
+    background-image: url("Immagini/home.jpg");
     height: 100%;
 }
 
@@ -1057,7 +1082,6 @@ banner_rec{
     width: 100%;
     height: 100%;
 }
-
 /*FOOTER*/
 
 .footer{
