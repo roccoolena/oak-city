@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97c32b5d-bad0-4728-a13e-57faca191640" name="Changes" comment="" />
+    <list default="true" id="97c32b5d-bad0-4728-a13e-57faca191640" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +31,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26NRBrf4dqeDVvZRxDFRkKh8Lrx" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -71,6 +73,8 @@
       <workItem from="1655824244353" duration="2770000" />
       <workItem from="1655836449269" duration="1076000" />
       <workItem from="1655970033896" duration="3662000" />
+      <workItem from="1656079031252" duration="80000" />
+      <workItem from="1656079116344" duration="28000" />
     </task>
     <servers />
   </component>
