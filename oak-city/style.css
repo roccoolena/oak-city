@@ -1034,8 +1034,32 @@ banner_rec{
     width:100%;
 }
 
+.title_pren{
+    font-weight: bold;
+    font-size: 3vw;
+    color: #F5FEF5;
+}
+
+.text_pren{
+    font-size: 3vw;
+    color: #F5FEF5;
+}
+
 .map{
     background-image: url("Immagini/homepage1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.map3{
+    background-image: url("Immagini/Prenota un'esperienza.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.map4{
+    background-color: rgba(49,76,28,0.52);
+    color: #F5FEF5;
 }
 
 .map2{
