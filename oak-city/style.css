@@ -14,6 +14,7 @@ body{
 .home{
     background-image: url("Immagini/homepage1.jpeg");
     width: auto;
+    background-size: cover;
 }
 
 .home_title{
@@ -663,7 +664,7 @@ h2{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 31px;
+    font-size: 10vw;
     line-height: 150%;
     text-align: center;
     letter-spacing: -0.02em;
@@ -671,7 +672,7 @@ h2{
 
 .h2_description{
     color: #391E0A;
-    font-size: 31px;
+    font-size: 10vw;
 }
 
 /*BODY*/
@@ -951,20 +952,21 @@ p{
 
 .banner{
     background-image: url("Immagini/home.jpg");
-    height: 100%;
+    width: 100%;
+    background-size: cover;
 }
 
 .description_title{
     color: #F5FEF5;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 6vw;
     padding-top: 13%;
     padding-bottom: 13%;
 }
 
 .description_text{
     color: #391E0A;
-    font-size: 30px;
+    font-size: 2.1vw;
     text-align: left;
     font-weight: lighter;
 }
