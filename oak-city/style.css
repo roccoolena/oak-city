@@ -674,6 +674,7 @@ banner_rec{
 .footer{
     background-color: rgba(245,254,245,0.56);
     height: auto;
+    padding-bottom: 3%;
 }
 
 .button_footer{
@@ -702,6 +703,10 @@ banner_rec{
     height: 3.5vw;
 }
 
+.footer_icons_group{
+    padding-top: 3.5%;
+}
+
 .footer_icons2{
     height: 3.3vw;
 }
@@ -709,27 +714,33 @@ banner_rec{
 .card-back{
     background-color: rgba(49,76,28,0.52);
 }
+
+.button_footer_text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #314C1C;
+    text-align: center;
+    font-size: 20px;
+}
+
+.button_footer_text2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #F5FEF5;
+    text-align: center;
+    font-size: 20px;
+}
+
 /* Smartphone */
 @media only screen and (max-width: 767px) {
 
     /* hidden container for services content in tablet and desktop versions */
-    #tab-content .card-content h2, #desktop-content-container {
-        display: none;
-    }
-
-    .small-image{
-        width: 30%;
-    }
-
-    button{
-        display:block;
-        margin:0.4em auto;
-    }
 
     .footer_buttons{
         width: 100%;
         padding-bottom: 0px;
         margin-bottom: 0;
+        height: 30px;
     }
 
     .footer_icons{
@@ -744,16 +755,23 @@ banner_rec{
         padding-top: 0px;
     }
 
-    .v{
-        display: none;
+    .button_footer{
+        height: 15vw;
+        margin-left: 5px;
     }
 
-    .button_footer{
-        height: 7vw;
+    .button_footer_text{
+        font-size: 10px;
+        padding-top: 5%;
+    }
+
+    .button_footer_text2{
+        font-size: 10px;
     }
 
     .button_footer2{
-        height: 7vw;
+        height: 15vw;
+        margin-right: 5px;
     }
 
     .review{
@@ -791,8 +809,19 @@ banner_rec{
     }
 }
 
+@media only screen and (max-width: 850px) {
+    .button_footer_text{
+        font-size: 10px;
+    }
+
+    .button_footer_text2{
+        font-size: 10px;
+    }
+}
+
 /* Desktop */
 @media only screen and (min-width: 1024px) {
+
     .footer_icons2{
         padding-top: 3px;
     }
