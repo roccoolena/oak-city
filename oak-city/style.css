@@ -806,3 +806,60 @@ banner_rec{
     height: 3.3vw;
 }
 
+/* Smartphone */
+@media only screen and (max-width: 767px) {
+
+    /* hidden container for services content in tablet and desktop versions */
+    #tab-content .card-content h2, #desktop-content-container {
+        display: none;
+    }
+
+    .small-image{
+        width: 30%;
+    }
+
+    button{
+        display:block;
+        margin:0.4em auto;
+    }
+
+    .footer_buttons{
+        width: 100%;
+        padding-bottom: 0px;
+        margin-bottom: 0;
+    }
+
+    .footer_icons{
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer_icons2{
+        width: 24px;
+        height: 24px;
+        padding-bottom: 2px;
+        padding-top: 0px;
+    }
+
+    .v{
+        display: none;
+    }
+
+    .button_footer{
+        height: 7vw;
+    }
+
+    .button_footer2{
+        height: 7vw;
+    }
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+    .footer_icons2{
+        padding-top: 3px;
+    }
+}
+
+
