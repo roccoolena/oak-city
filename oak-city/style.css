@@ -149,6 +149,7 @@ h5{
     color: #F5FEF5;
     text-decoration-line: none;
 }
+
 .link_header:hover{
     color: #F5FEF5;
 }
@@ -741,9 +742,10 @@ banner_rec{
         display: block;
     }
 
-    .bar li {
+    .bar li{
         display: block;
     }
+
     .right{
         margin: 0px;
         padding-bottom: 3%;
