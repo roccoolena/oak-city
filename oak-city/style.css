@@ -736,6 +736,23 @@ banner_rec{
 
 /* Smartphone */
 @media only screen and (max-width: 767px) {
+    .bar{
+        height: auto;
+        display: block;
+    }
+
+    .bar li {
+        display: block;
+    }
+    .right{
+        margin: 0px;
+        padding-bottom: 3%;
+        padding-left: 0%;
+    }
+
+    .left{
+        display: none;
+    }
 
     /* hidden container for services content in tablet and desktop versions */
     .h2_description{
