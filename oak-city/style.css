@@ -1,6 +1,5 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
     line-height: 150%;
     margin: 0%;
     height: auto;
@@ -323,7 +322,7 @@ Titolo {
 
 h3 {
     font-family: "Open Sans", sans-serif;
-    font-style: bold;
+    font-weight: bold;
     line-height: 150%;
     letter-spacing: -0.02em;
 }
