@@ -853,6 +853,30 @@ banner_rec{
         height: 7vw;
     }
 
+    .review{
+        font-size: 12px;
+    }
+
+    .news1_text{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .news1_title{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .news2_text{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .news2_title{
+        font-size: 20px;
+        text-align: center;
+    }
+
 }
 
 /* Desktop */
