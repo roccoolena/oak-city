@@ -47,8 +47,9 @@ body{
     border-color: #F8B509;
 }
 
-.prenota_soggiorno{
+.prenotation{
     background-color: #DFDACB;
+    width: 100%;
 }
 
 /*ROCCO prenota*/
@@ -83,7 +84,7 @@ h1{
 }
 
 .banner_news{
-    background-image: url("Immagini/news%20copia.png");
+    background-image: url("Immagini/news copia.png");
     max-width: 100%;
     height: auto;
     background-repeat: no-repeat;
@@ -779,7 +780,7 @@ h2{
     padding-bottom: 0;
 }
 
-#date {
+#date1 {
     font-family: 'Open Sans';
     font-weight: lighter;
     font-size: 16px;
@@ -1004,7 +1005,7 @@ p{
 
 .soggiorno_text{
     color: #391E0A;
-    font-size: 30px;
+    font-size: 2vw;
     text-align: left;
     line-height: normal;
 }
