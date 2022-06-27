@@ -288,6 +288,9 @@ h2{
 
 .h2_description{
     color: #391E0A;
+    font-size: 40px;
+    padding-right: 3%;
+    padding-left: 3%;
 }
 
 .title_rec{
@@ -735,6 +738,13 @@ banner_rec{
 @media only screen and (max-width: 767px) {
 
     /* hidden container for services content in tablet and desktop versions */
+    .h2_description{
+        font-size: 16px;
+    }
+
+    .description_text{
+        font-size: 12px;
+    }
 
     .footer_buttons{
         width: 100%;
