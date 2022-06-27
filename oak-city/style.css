@@ -807,8 +807,10 @@ banner_rec{
         font-size: 12px;
         text-align: center;
     }
+
 }
 
+/*tablet*/
 @media only screen and (max-width: 850px) {
     .button_footer_text{
         font-size: 10px;
