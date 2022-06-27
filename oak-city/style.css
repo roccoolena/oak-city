@@ -403,8 +403,6 @@ a {
     /* transition: 0s; */
 }
 
-
-
 /*======================================================
                     Mobile Menu Menu Icon
   ======================================================*/
@@ -538,10 +536,6 @@ a {
     }
 }
 
-
-/*======================================================
-                   Responsive Mobile Menu
-  ======================================================*/
 .overlay-menu {
     background: lightblue;
     color: rgb(13, 26, 38);
@@ -574,8 +568,6 @@ a {
     text-transform: uppercase;
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
-    /*   -webkit-transition: 0.2s opacity 0.2s ease-out;
-      transition: 0.2s opacity 0.2s ease-out; */
 }
 
 .overlay-menu li a:hover,
@@ -629,9 +621,7 @@ Titolo {
 
 h3 {
     font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2.2vw;
+    font-style: bold;
     line-height: 150%;
     letter-spacing: -0.02em;
 }
@@ -674,10 +664,6 @@ h2{
 .h2_description{
     color: #391E0A;
 }
-
-/*BODY*/
-
-/*FEDERICA recensioni*/
 
 .title_rec{
     font-weight: bold;
@@ -740,74 +726,54 @@ h2{
 
 }
 
-/*.card_box_rating {
-    background-color: #E6E5D8;
-    border-color: #000000;
-    width: 291px;
-    height: 126px;
-    float: right;
-    /*margin: -130px;*/
-    /*margin-right: 100px;
-}*/
-
 .generic_review {
-    float: right;
-    width: 291px;
-    height: 125px;
-}
-.user_icon {
-    width: 88px;
-    height: 75px;
-    float: left;
-    padding-right: 15px;
+    width: 80%;
 }
 
-.user_iconimg {
-    width: 100px;
-    height: 100px;
-    clip-path: circle(40%);
+.stars{
+    width: 15%;
+}
+
+.user_icon {
+    width: 15%;
     float: left;
-    padding-right: 15px;
+    padding-right: 2%;
 }
 
 .user_name{
     font-family: 'Open Sans';
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.5vw;
     letter-spacing: 0.03em;
     text-align: start;
     color: #2E3019;
-    padding-bottom: 0;
 }
 
 .date1 {
     font-family: 'Open Sans';
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 1vw;
     letter-spacing: -0.02em;
     text-align: start;
     color: #2E3019;
 }
 
-h3 {
+.h3_review{
     font-family: 'Open Sans';
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2vw;
     letter-spacing: -0.02em;
+    color: #2E3019;
 }
 
-#review {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 30px;
-        letter-spacing: -0.02em;
-    
-}
-
-.card_review {
-    font-size: 18px;
+.review{
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.3vw;
+    letter-spacing: -0.02em;
+    color: #2E3019;
+    font-weight: 300;
+    text-align: left;
 }
-
 
 .img_recensione {
     padding: 70px;
@@ -880,43 +846,39 @@ h3 {
     color: white;
     border-radius: 10px;
 }
-/*Alessia servizi_esperienza*/
+
 @media (min-width: 768px) {
     .h-md-100 { height: 100vh; }
-
 }
+
 .btn-round { border-radius: 30px; }
-.bg-indigo { background-image: url("Immagini/Foto_servizi.png"); }
 
-.unotext { color:#F5FEF5;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+.bg-indigo {
+    background-image: url("Immagini/Foto_servizi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.unotext_body{
+.unotext {
     color:#F5FEF5;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 30px;
-    line-height: normal;
+}
+
+.service{
+    width: 100%;
 }
 
 .bg-white{
     background-image: url("Immagini/Foto_esperienza.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .duetext{
     color:#F5FEF5;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;}
-
-.leftside{
-    height: 100vh;
-}
-
-.rightside{
-    height:100vh;
-}
 
 .button_uno{
     color:#F5FEF5;
@@ -975,13 +937,13 @@ p{
 /*pagina servizi*/
 
 .service_title{
-    font-size: 64px;
+    font-size: 4.5vw;
     font-weight: bold;
     color: #F5FEF5;
 }
 
 .service_text{
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: bold;
     color: #F5FEF5;
 }
@@ -1141,4 +1103,59 @@ banner_rec{
 
 .footer_icons2{
     height: 3.3vw;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar1{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+@media only screen and (max-width: 768px) {
+    .right{
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .right.active {
+        left: 0;
+    }
+
+    .link_header{
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar1:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar1:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar1:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
 }
