@@ -806,6 +806,9 @@ banner_rec{
     height: 3.3vw;
 }
 
+.card-back{
+    background-color: rgba(49,76,28,0.52);
+}
 /* Smartphone */
 @media only screen and (max-width: 767px) {
 
@@ -874,6 +877,16 @@ banner_rec{
 
     .news2_title{
         font-size: 20px;
+        text-align: center;
+    }
+
+    .card-title{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .card-text{
+        font-size: 12px;
         text-align: center;
     }
 
