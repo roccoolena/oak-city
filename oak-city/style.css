@@ -458,6 +458,9 @@ h2{
     border-radius: 10px;
 }
 
+.img_100{
+    width: 100%;
+}
 
 .footer {
     background-color: rgb(245, 254, 245, 56%);
